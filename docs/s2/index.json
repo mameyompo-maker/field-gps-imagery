@@ -1,0 +1,58 @@
+{
+ "name": "Sentinel-2 (Malema – Ribáue)",
+ "bbox": [
+  36.91022,
+  -15.84831,
+  38.76978,
+  -14.05169
+ ],
+ "minzoom": 8,
+ "maxzoom": 14,
+ "format": "webp",
+ "dates": [
+  "2026-08-22",
+  "2026-10-21"
+ ],
+ "attribution": "Contains modified Copernicus Sentinel data 2026",
+ "tiles": 9796,
+ "bytes": 61521106,
+ "scenes": [
+  {
+   "mgrs": "37LBC",
+   "date": "2026-10-21"
+  },
+  {
+   "mgrs": "37LBD",
+   "date": "2026-10-21"
+  },
+  {
+   "mgrs": "37LBE",
+   "date": "2026-10-08"
+  },
+  {
+   "mgrs": "37LCC",
+   "date": "2026-08-22"
+  },
+  {
+   "mgrs": "37LCD",
+   "date": "2026-10-21"
+  },
+  {
+   "mgrs": "37LCE",
+   "date": "2026-10-11"
+  },
+  {
+   "mgrs": "37LDC",
+   "date": "2026-10-08"
+  },
+  {
+   "mgrs": "37LDD",
+   "date": "2026-10-08"
+  },
+  {
+   "mgrs": "37LDE",
+   "date": "2026-10-08"
+  }
+ ],
+ "note": "Gaps at scene edges were filled from other cloud-free scenes of 2026-09/10."
+}
