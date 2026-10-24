@@ -1,0 +1,53 @@
+{
+ "id": "monapo",
+ "name": "Monapo",
+ "bbox": [
+  39.76,
+  -15.27,
+  40.54,
+  -14.4
+ ],
+ "minzoom": 8,
+ "maxzoom": 14,
+ "format": "webp",
+ "dates": [
+  "2026-07-15",
+  "2026-10-22"
+ ],
+ "method": "median of cloud-free pixels (SCL), L2A B04/B03/B02",
+ "attribution": "Contains modified Copernicus Sentinel data 2026",
+ "tiles": 2107,
+ "bytes": 49105319,
+ "packs": [
+  {
+   "file": "packs/p00-0cb3acbc.bin",
+   "bytes": 8398874,
+   "tiles": 335
+  },
+  {
+   "file": "packs/p01-8b5c54ad.bin",
+   "bytes": 8413254,
+   "tiles": 341
+  },
+  {
+   "file": "packs/p02-9b75000f.bin",
+   "bytes": 8399905,
+   "tiles": 348
+  },
+  {
+   "file": "packs/p03-6beed1ce.bin",
+   "bytes": 8418987,
+   "tiles": 378
+  },
+  {
+   "file": "packs/p04-a9c1d778.bin",
+   "bytes": 8400527,
+   "tiles": 364
+  },
+  {
+   "file": "packs/p05-3db25d8d.bin",
+   "bytes": 7073772,
+   "tiles": 341
+  }
+ ]
+}

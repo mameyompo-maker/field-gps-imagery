@@ -1,0 +1,132 @@
+{
+ "version": 2,
+ "regions": [
+  {
+   "id": "monapo",
+   "name": "Monapo",
+   "tiles": "monapo/",
+   "bbox": [
+    39.76,
+    -15.27,
+    40.54,
+    -14.4
+   ],
+   "minzoom": 8,
+   "maxzoom": 14,
+   "dates": [
+    "2026-07-15",
+    "2026-10-22"
+   ],
+   "attribution": "Contains modified Copernicus Sentinel data 2026",
+   "packs": [
+    {
+     "file": "packs/p00-0cb3acbc.bin",
+     "bytes": 8398874,
+     "tiles": 335
+    },
+    {
+     "file": "packs/p01-8b5c54ad.bin",
+     "bytes": 8413254,
+     "tiles": 341
+    },
+    {
+     "file": "packs/p02-9b75000f.bin",
+     "bytes": 8399905,
+     "tiles": 348
+    },
+    {
+     "file": "packs/p03-6beed1ce.bin",
+     "bytes": 8418987,
+     "tiles": 378
+    },
+    {
+     "file": "packs/p04-a9c1d778.bin",
+     "bytes": 8400527,
+     "tiles": 364
+    },
+    {
+     "file": "packs/p05-3db25d8d.bin",
+     "bytes": 7073772,
+     "tiles": 341
+    }
+   ],
+   "osm": {
+    "url": "monapo/osm.json?v=cf5497e1",
+    "bytes": 1300438
+   },
+   "admin": {
+    "url": "monapo/admin.json?v=25f064b5",
+    "bytes": 674588
+   }
+  },
+  {
+   "id": "malema",
+   "name": "Malema – Ribáue",
+   "tiles": "s2/",
+   "bbox": [
+    36.91022,
+    -15.84831,
+    38.76978,
+    -14.05169
+   ],
+   "minzoom": 8,
+   "maxzoom": 14,
+   "dates": [
+    "2026-08-22",
+    "2026-10-21"
+   ],
+   "attribution": "Contains modified Copernicus Sentinel data 2026",
+   "packs": [
+    {
+     "file": "packs/p00-e964c527.bin",
+     "bytes": 8427857,
+     "tiles": 1119
+    },
+    {
+     "file": "packs/p01-5720513c.bin",
+     "bytes": 8426423,
+     "tiles": 1102
+    },
+    {
+     "file": "packs/p02-7e42915e.bin",
+     "bytes": 8434878,
+     "tiles": 1437
+    },
+    {
+     "file": "packs/p03-d77a287b.bin",
+     "bytes": 8437254,
+     "tiles": 1470
+    },
+    {
+     "file": "packs/p04-96362976.bin",
+     "bytes": 8434945,
+     "tiles": 1436
+    },
+    {
+     "file": "packs/p05-d674b53f.bin",
+     "bytes": 8435735,
+     "tiles": 1508
+    },
+    {
+     "file": "packs/p06-77cb4ac9.bin",
+     "bytes": 8429307,
+     "tiles": 1308
+    },
+    {
+     "file": "packs/p07-fab8c04e.bin",
+     "bytes": 2787836,
+     "tiles": 416
+    }
+   ],
+   "osm": {
+    "url": "malema/osm.json?v=f258b7ea",
+    "bytes": 3361818
+   },
+   "admin": {
+    "url": "malema/admin.json?v=2ccb9072",
+    "bytes": 3426062
+   }
+  }
+ ],
+ "bytes": 119682460
+}
