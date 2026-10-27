@@ -6,7 +6,7 @@ GPS 記録アプリ [field_gps_map](https://github.com/mameyompo-maker/field-gps
 ## 中身
 
 - `docs/catalog.json` … 目録。アプリはここに載っている範囲を全部入れる(`tools/make_catalog.py` が作る)
-- 範囲ごとのフォルダ(`docs/monapo/`、`docs/malema/`)
+- 範囲ごとのフォルダ(2026-10-27 から `docs/monapo/` だけ。Kazさん「Monapo 地区だけでいい。西側は全部いらない」)
   - `index.json` … 範囲・ズーム(8〜14)・撮影日・束の一覧
   - `packs/pNN-<ハッシュ>.bin` … タイルを約 8 MB ずつまとめた「束」。アプリはこれを取り込む
     (Android の Chrome は Background Fetch で、アプリを閉じても続く)。
@@ -14,8 +14,9 @@ GPS 記録アプリ [field_gps_map](https://github.com/mameyompo-maker/field-gps
   - `{z}/{x}/{y}.webp` … 同じタイルを 1 枚ずつ(電波のあるときに、まだ入っていない所を直接読む用)
   - `osm.json` … 道・川・池・集落名(OpenStreetMap、© OpenStreetMap contributors、ODbL)
   - `admin.json` … 郡・行政ポスト・localidade の境界と名前(OCHA/INE COD-AB、HDX、v02 2025-01-01)
-- `docs/s2/` … v1.4.0〜v1.7.0 の Malema〜Ribáue の画像(TCI、8 ビット)。Malema〜Ribáue の高画質版(`malema/`)ができるまでは
-  目録がこれを指す。古い版のアプリもこれを読むので、しばらく残す。
+- 10/27 に Malema〜Ribáue(`docs/malema/` 高画質版・`docs/s2/` 旧版)を外した。git の履歴(390f78a2 まで)と
+  `OneDrive - 河村研究室\Delete_candidateield_gps_imagery_malema_20261027`・`…_s2_20261027` に残っている。
+  戻すときはフォルダを戻し、field_gps_map の `tools/make_catalog.py` の REGIONS に足して目録を作り直す。
 
 ## 衛星写真
 
