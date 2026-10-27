@@ -15,7 +15,7 @@ GPS 記録アプリ [field_gps_map](https://github.com/mameyompo-maker/field-gps
   - `osm.json` … 道・川・池・集落名(OpenStreetMap、© OpenStreetMap contributors、ODbL)
   - `admin.json` … 郡・行政ポスト・localidade の境界と名前(OCHA/INE COD-AB、HDX、v02 2025-01-01)
 - 10/27 に Malema〜Ribáue(`docs/malema/` 高画質版・`docs/s2/` 旧版)を外した。git の履歴(390f78a2 まで)と
-  `OneDrive - 河村研究室\Delete_candidateield_gps_imagery_malema_20261027`・`…_s2_20261027` に残っている。
+  `OneDrive - 河村研究室\Delete_candidate\field_gps_imagery_malema_20261027`・`…_s2_20261027` に残っている。
   戻すときはフォルダを戻し、field_gps_map の `tools/make_catalog.py` の REGIONS に足して目録を作り直す。
 
 ## 衛星写真
